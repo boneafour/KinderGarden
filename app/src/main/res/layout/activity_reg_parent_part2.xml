@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/tvPart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="16dp"
+        android:layout_marginTop="50dp"
+        android:textSize="32dp"
+        android:text="Шаг 2/4"
+        android:textColor="@color/colorBtn"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spReg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        style="@style/myCustomEditText"
+        android:entries="@array/regions"
+        android:layout_below="@+id/tvPart"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/spMKR"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        style="@style/myCustomEditText"
+        android:entries="@array/AlmatyCity"
+        android:layout_below="@+id/spReg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:id="@+id/spKG"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            style="@style/myCustomEditText"
+            android:entries="@array/chooseKG"
+            android:layout_below="@+id/spReg"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:id="@+id/spGroup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            style="@style/myCustomEditText"
+            android:entries="@array/chooseGroup"
+            android:layout_below="@+id/spReg"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editPIN"
+        style="@style/myCustomEditText"
+        android:layout_below="@+id/editName"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/enterPIN"
+        android:inputType="textPersonName"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNext"
+        style="@style/myCustomButton"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/nextButton"
+        android:focusable="false"/>
+
+
+
+
+</RelativeLayout>
+

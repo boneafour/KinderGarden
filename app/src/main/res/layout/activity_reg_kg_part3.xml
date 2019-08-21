@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+    <EditText
+        android:id="@+id/etAbout"
+        style="@style/myCustomEditText"
+        android:layout_height="120dp"
+        android:layout_below="@+id/app_bar"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/aboutKG"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/editPrice"
+        style="@style/myCustomEditText"
+        android:layout_below="@+id/etAbout"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/priceKG"
+        android:inputType="textPersonName"/>
+
+    <LinearLayout
+        android:id="@+id/llPrice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editPrice"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editAge"
+            style="@style/myCustomEditText"
+            android:layout_width="220dp"
+            android:layout_marginRight="5dp"
+            android:ems="10"
+            android:hint="@string/ageKG"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/spFrom"
+            style="@style/myCustomEditText"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/editAge"
+            android:entries="@array/ageFrom" />
+
+        <TextView
+            android:id="@+id/tvDash"
+            style="@style/myCustomTextViewMediumWhite"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/spFrom"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:text="-" />
+
+        <Spinner
+            android:id="@+id/spBefore"
+            style="@style/myCustomEditText"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/tvDash"
+            android:layout_alignTop="@+id/llPrice"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="16dp"
+            android:entries="@array/ageBefore" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/quantityPrice"
+        style="@style/myCustomEditText"
+        android:layout_below="@+id/llPrice"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/quantityKG"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/phonePrice"
+        style="@style/myCustomEditText"
+        android:layout_below="@+id/quantityPrice"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/phoneKG"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/site"
+        style="@style/myCustomEditText"
+        android:layout_below="@+id/phonePrice"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/siteKG"
+        android:inputType="phone"/>
+
+
+    <Button
+        android:id="@+id/btnNext"
+        style="@style/myCustomButton"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/nextButton"
+        android:focusable="false"/>
+
+
+
+
+</RelativeLayout>
+

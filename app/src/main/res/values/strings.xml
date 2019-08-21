@@ -1,0 +1,392 @@
+<resources>
+    <string name="appname">Детский сад</string>
+
+    <!-- Strings related to login -->
+    <string name="authorization">Авторизация</string>
+    <string name="tvAuthorization">Вход в личный кабинет</string>
+    <string name="editLogin">Имя пользователя</string>
+    <string name="editPass">Пароль</string>
+    <string name="editPassRepeat">Повторите пароль</string>
+    <string name="loginButton">ВОЙТИ</string>
+    <string name="forgetButton">Забыли пароль?</string>
+    <string name="tvRegistButton">У вас еще нет учетной записи?</string>
+    <string name="registButton">РЕГИСТРАЦИЯ</string>
+
+    <!-- Strings related to login -->
+    <string name="privacyPolicy">Политика конфиденциальности</string>
+    <string name="choose">Выберите кем вы являетесь</string>
+    <string name="parent">Родитель</string>
+
+    <string name="nameKG">Название детского сада</string>
+    <string name="selectImgKG">Выберите фото детского сада</string>
+    <string name="aboutKG">О детского сада:</string>
+    <string name="priceKG">Цена детского сада:</string>
+    <string name="ageKG">Возраст детей:</string>
+    <string name="quantityKG">Количество детей в группе:</string>
+    <string name="phoneKG">Телефон:</string>
+    <string name="siteKG">Сайт:</string>
+    <string name="adress">Адресс детского сада</string>
+    <string name="nextButton">ДАЛЬШЕ</string>
+    <string name="finishButton">ГОТОВ</string>
+
+
+    <string name="enterPIN">Введите пин код группы:</string>
+    <string name="selectImgChild">Выберите фото вашего ребенка:</string>
+    <string name="enterNameChild">Введите имя ребенка:</string>
+    <string name="enterNameParent">Введите фамилия и имя:</string>
+    <string name="enterPhoneParent">Введите номер телефона:</string>
+    <string name="enterEmailParent">Введите электронную почту:</string>
+
+    <string-array name="gender">
+    <item>Мальчик</item>
+    <item>Девочка</item>
+    </string-array>
+
+    <string-array name="parent">
+        <item>Выберите кем вы являетесь:</item>
+        <item>Мама</item>
+        <item>Папа</item>
+        <item>Бабушка</item>
+        <item>Дедушка</item>
+        <item>Тетя</item>
+        <item>Дядя</item>
+        <item>Сестра</item>
+        <item>Брат</item>
+    </string-array>
+
+
+    <string name="date">Дата рождения ребенка</string>
+    <string-array name="months">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+
+
+    <!-- Strings related to creation -->
+    <string name="creation">Детское творчество</string>
+    <string name="add">Добавить</string>
+    <string name="tvWriteTitle">Напишите о этом творчество </string>
+    <string name="editTitleCreation">Напишите заголовок </string>
+    <string name="tvSelectAuthor">Выберите автора</string>
+    <string name="loadImage">Загрузить фото</string>
+
+    <string name="videocamera">Видео наблюдение</string>
+    <string name="profile">Профиль</string>
+    <string name="notification">Уведомления</string>
+    <string name="kinderGarden">Детский сад</string>
+    <string name="callButton">Позвонить</string>
+    <string name="timetable">Распорядок дня</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+
+
+    <string-array name="regions">
+        <item>Город Алма-Ата</item>
+        <item>Город Нур-Султан</item>
+        <item>Город Шымкент</item>
+        <item>Акмолинская область</item>
+        <item>Актюбинская область</item>
+        <item>Алматинская область</item>
+        <item>Атырауская область</item>
+        <item>Восточно-Казахстанская область</item>
+        <item>Жамбылская область</item>
+        <item>Западно-Казахстанская область</item>
+        <item>Карагандинская область</item>
+        <item>Костанайская область</item>
+        <item>Кызылординская область</item>
+        <item>Мангистауская область</item>
+        <item>Павлодарская область</item>
+        <item>Северо-Казахстанская область</item>
+        <item>Туркестанская область</item>
+    </string-array>
+    <string-array name="AlmatyCity">
+        <item>Алатауский район</item>
+        <item>Алмалинский район</item>
+        <item>Ауэзовский район</item>
+        <item>Бостандыкский район</item>
+        <item>Медеуский район</item>
+        <item>Наурызбайский район</item>
+        <item>Турксибский район</item>
+        <item>Жетысуский район</item>
+    </string-array>
+    <string-array name="NurSultanCity">
+        <item>Алматы</item>
+        <item>Байконур</item>
+        <item>Есиль</item>
+        <item>Сары арка</item>
+    </string-array>
+    <string-array name="ShymCity">
+        <item>Абайский район</item>
+        <item>Аль-Фарабийский район</item>
+        <item>Енбекшинский район</item>
+        <item>Каратауский район</item>
+    </string-array>
+    <string-array name="AkmolaRegion">
+        <item>город Кокшетау</item>
+        <item>город Степногорск</item>
+        <item>Аккольский район</item>
+        <item>Аршалынский район</item>
+        <item>Астраханский район</item>
+        <item>Атбасарский район</item>
+        <item>Буландынский район</item>
+        <item>Бурабайский район</item>
+        <item>Егиндыкольский район</item>
+        <item>Биржан-салский район</item>
+        <item>Ерейментауский район</item>
+        <item>Есильский район</item>
+        <item>Жаксынский район</item>
+        <item>Жаркаинский район</item>
+        <item>Зерендинский район</item>
+        <item>Коргалжынский район</item>
+        <item>Сандыктауский район</item>
+        <item>Целиноградский район</item>
+        <item>Шортандинский район</item>
+    </string-array>
+    <string-array name="AktobeRegion">
+        <item>город Актобе</item>
+        <item>Алгинский район</item>
+        <item>Айтекебийский район</item>
+        <item>Байганинский район</item>
+        <item>Иргизский район</item>
+        <item>Каргалинский район</item>
+        <item>Мартукский район</item>
+        <item>Мугалжарский район</item>
+        <item>Темирский район</item>
+        <item>Уилский район</item>
+        <item>Хобдинский район</item>
+        <item>Хромтауский район </item>
+        <item>Шалкарский район</item>
+    </string-array>
+    <string-array name="AlmatyRegion">
+        <item>город Талдыкорган</item>
+        <item>город Капшагай</item>
+        <item>город Текели</item>
+        <item>Аксуский район</item>
+        <item>Алакольский район</item>
+        <item>Балхашский район</item>
+        <item>Енбекшиказахский район</item>
+        <item>Ескельдинский район</item>
+        <item>Жамбылский район</item>
+        <item>Илийский район</item>
+        <item>Карасайский район</item>
+        <item>Каратальский район</item>
+        <item>Кегенский район</item>
+        <item>Кербулакский район</item>
+        <item>Коксуский район</item>
+        <item>Панфиловский район</item>
+        <item>Райымбекский район</item>
+        <item>Саркандский район</item>
+        <item>Талгарский район</item>
+        <item>Уйгурский район</item>
+    </string-array>
+    <string-array name="AtyrauRegion">
+        <item>город Атырау</item>
+        <item>Жылы ойский район</item>
+        <item>Индерский район</item>
+        <item>Исатайский район</item>
+        <item>Кызылколинский район</item>
+        <item>Курмангазинский район</item>
+        <item>Макатский район</item>
+        <item>Махамбетский район</item>
+    </string-array>
+    <string-array name="VKORegion">
+        <item>город Семей</item>
+        <item>город Усть-Каменогорск </item>
+        <item>город Риддер</item>
+        <item>город Курчатов</item>
+        <item>Абайский район</item>
+        <item>Аягозский район</item>
+        <item>Бескарагайский район</item>
+        <item>Бородулихинский район</item>
+        <item>Глубоковский район</item>
+        <item>Жарминский район</item>
+        <item>Зайсанский район</item>
+        <item>Алтайский район</item>
+        <item>Катон-Карагайский район</item>
+        <item>Кокпектинский район</item>
+        <item>Куршимский район</item>
+        <item>Тарбагатайский район</item>
+        <item>Уланский район</item>
+        <item>Урджарский район</item>
+        <item>Шемонаихинский район</item>
+    </string-array>
+    <string-array name="ZhambylRegion">
+        <item>город Тараз</item>
+        <item>Байзакский район </item>
+        <item>Жамбылский район </item>
+        <item>Жуалынский район</item>
+        <item>Кордайский район</item>
+        <item>Меркенский район</item>
+        <item>Мойынкумский район</item>
+        <item>Район Рыскулова</item>
+        <item>Сарысуский район</item>
+        <item>Таласский район</item>
+        <item>Шуский район</item>
+    </string-array>
+    <string-array name="ZKORegion">
+        <item>город Уральск</item>
+        <item>Акжаикский район </item>
+        <item>Бокейординский район </item>
+        <item>Бурлинский район</item>
+        <item>Жангалинский район</item>
+        <item>Жанибекский район</item>
+        <item>Байтерекский район</item>
+        <item>Казталовский район</item>
+        <item>Каратобинский район</item>
+        <item>Сырымский район</item>
+        <item>Таскалинский район</item>
+        <item>Теректинский район</item>
+        <item>Чингирлауский район</item>
+    </string-array>
+    <string-array name="KaragandaRegion">
+        <item>город Караганда</item>
+        <item>город Балхаш</item>
+        <item>город Жезказган</item>
+        <item>город Каражал</item>
+        <item>город Приозёрск</item>
+        <item>город Сарань</item>
+        <item>город Сатпаев</item>
+        <item>город Темиртау</item>
+        <item>город Шахтинск</item>
+        <item>Абайский район </item>
+        <item>Актогайский район </item>
+        <item>Бухар-Жырауский район</item>
+        <item>Жанааркинский район</item>
+        <item>Каркаралинский район</item>
+        <item>Нуринский район</item>
+        <item>Осакаровский район</item>
+        <item>Улытауский район</item>
+        <item>Шетский район</item>
+    </string-array>
+    <string-array name="KostanaiRegion">
+        <item>город Костанай</item>
+        <item>город Аркалык</item>
+        <item>город Лисаковск</item>
+        <item>город Рудный</item>
+        <item>Алтынсаринский район </item>
+        <item>Амангельдинский район </item>
+        <item>Аулиекольский район</item>
+        <item>Денисовский район</item>
+        <item>Джангельдинский район</item>
+        <item>Житикаринский район</item>
+        <item>Камыстинский район</item>
+        <item>Карабалыкский район</item>
+        <item>Карасуский район</item>
+        <item>Костанайский район</item>
+        <item>Мендыкаринский район</item>
+        <item>Наурзумский район</item>
+        <item>Сарыкольский район</item>
+        <item>Район Беимбета Майлина</item>
+        <item>Узункольский район</item>
+        <item>Фёдоровский район</item>
+    </string-array>
+    <string-array name="KyzylordaRegion">
+        <item>город Кызылорда</item>
+        <item>город Байконур</item>
+        <item>Аральский район </item>
+        <item>Жалагашский район </item>
+        <item>Жанакорганский район</item>
+        <item>Казалинский район</item>
+        <item>Кармакшинский район</item>
+        <item>Сырдарьинский район</item>
+        <item>Шиелийский район</item>
+    </string-array>
+    <string-array name="MangystauRegion">
+        <item>город Актау</item>
+        <item>город Жана-озен</item>
+        <item>Бейнеуский район </item>
+        <item>Каракиянский район </item>
+        <item>Мангистауский район</item>
+        <item>Мунайлинский район</item>
+        <item>Тупкараганский район</item>
+    </string-array>
+    <string-array name="PavlodarRegion">
+        <item>город Павлодар</item>
+        <item>город Экибастуз</item>
+        <item>город Аксу</item>
+        <item>Актогайский район </item>
+        <item>Баянаульский район </item>
+        <item>Железинский район</item>
+        <item>Иртышский район</item>
+        <item>Теренкольский район</item>
+        <item>Аккулинский район</item>
+        <item>Майский район</item>
+        <item>Павлодарский район</item>
+        <item>Успенский район</item>
+        <item>Щербактинский район</item>
+    </string-array>
+    <string-array name="SKORegion">
+        <item>город Петропавловск</item>
+        <item>Айыртауский район </item>
+        <item>Акжарский район </item>
+        <item>Аккайынский район</item>
+        <item>Есильский район</item>
+        <item>Жамбылский район</item>
+        <item>район Жумабаева</item>
+        <item>Кызылжарский район</item>
+        <item>Мамлютский район</item>
+        <item>район Мусрепова</item>
+        <item>Тимирязевский район</item>
+        <item>район Шал Акына</item>
+        <item>Уалихановский район</item>
+    </string-array>
+    <string-array name="TurkestanRegion">
+        <item>город Арыс</item>
+        <item>город Кентау</item>
+        <item>город Туркестан</item>
+        <item>Байдибекский район </item>
+        <item>Казыгуртский район </item>
+        <item>Макта-аральский район</item>
+        <item>Ордабасинский район</item>
+        <item>Отырарский район</item>
+        <item>Сайрамский район</item>
+        <item>Сары-агашский район</item>
+        <item>Сузакский район</item>
+        <item>Толебийский район</item>
+        <item>Тюлькубасский район</item>
+        <item>Шардаринский район</item>
+        <item>Жетысайский район</item>
+        <item>Келесский район</item>
+    </string-array>
+
+    <string-array name="ageFrom">
+        <item>от 1</item>
+        <item>от 2</item>
+        <item>от 3</item>
+        <item>от 4</item>
+        <item>от 5</item>
+    </string-array>
+
+    <string-array name="ageBefore">
+        <item>до 3</item>
+        <item>до 4</item>
+        <item>до 5</item>
+        <item>до 6</item>
+        <item>до 7</item>
+    </string-array>
+
+    <string-array name="chooseKG">
+        <item>Выберите детского сада</item>
+    </string-array>
+
+    <string-array name="chooseGroup">
+        <item>Выберите группу</item>
+    </string-array>
+
+</resources>

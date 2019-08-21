@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        style="@style/TextViewAuthorization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/tvAuthorization" />
+
+    <EditText
+        android:id="@+id/editLogin"
+        style="@style/myCustomEditText"
+        android:layout_below="@+id/tvLogin"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/editLogin"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/editPass"
+        style="@style/myCustomEditText"
+        android:layout_below="@+id/editLogin"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/editPass"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        style="@style/myCustomButton"
+        android:layout_below="@+id/editPass"
+        android:layout_marginTop="5dp"
+        android:focusable="false"
+        android:text="@string/loginButton" />
+
+
+    <TextView
+        android:id="@+id/tvResetPass"
+        android:layout_width="match_parent"
+        style="@style/myCustomTextViewRegularBlue"
+        android:layout_below="@+id/loginButton"
+        android:layout_marginTop="5dp"
+        android:text="@string/forgetButton" />
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"
+        style="@style/myCustomTextViewRegularBlack"
+        android:layout_above="@+id/tvResetPass"
+        android:text="@string/tvRegistButton" />
+    <Button
+        style="@style/myCustomButton"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/registButton"
+        android:id="@+id/registerButton"
+        android:focusable="false"/>
+
+
+
+
+</RelativeLayout>
+

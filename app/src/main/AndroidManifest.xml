@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kindergarden3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/appname"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemee">
+        <activity
+            android:name="com.example.kindergarden3.SplashScreen"
+            android:label="@string/appname"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Authorization.Authorization"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ResetPassword.ResetPass"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Authorization.Authorization" />
+        </activity>
+        <activity
+            android:name=".Registration.RegistrationChoose"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Authorization.Authorization" />
+        </activity>
+
+        <activity
+            android:name=".Registration.RegistrationKGpart2"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Registration.RegistrationChoose" />
+        </activity>
+
+        <activity
+            android:name=".Registration.RegistrationKGpart3"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Registration.RegistrationKGpart2" />
+        </activity>
+
+        <activity
+            android:name=".Registration.RegistrationKGpart4"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Registration.RegistrationKGpart3" />
+        </activity>
+
+        <activity
+            android:name=".Registration.RegistrationParentpart2"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Registration.RegistrationChoose" />
+        </activity>
+
+        <activity
+            android:name=".Registration.RegistrationParentpart3"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Registration.RegistrationParentpart2" />
+        </activity>
+
+        <activity
+            android:name=".Registration.RegistrationParentpart4"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Registration.RegistrationParentpart3" />
+        </activity>
+
+        <activity android:name=".Tab.Tab"/>
+
+        <activity android:name=".Tab.TabPageOneCreation"/>
+
+        <activity android:name=".Creation.CreationAdd">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Tab.TabPageOneCreation" /></activity>
+
+        <activity android:name=".Tab.TabPageTwoVideoCamera"/>
+
+        <activity android:name=".VideoCamera.CameraAdd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Tab.TabPageOneCreation" /></activity>
+
+        <activity android:name=".Tab.TabPageThreeProfile"/>
+
+        <activity
+            android:name=".Profile.Notifications"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Tab.TabPageThreeProfile" />
+        </activity>
+        <activity android:name=".Profile.EditProfile">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Tab.TabPageThreeProfile" /></activity>
+        <activity
+            android:name=".Profile.KinderGarden"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Tab.TabPageThreeProfile" />
+        </activity>
+        <activity
+        android:name=".Profile.TimeTable"
+        android:screenOrientation="portrait">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Tab.TabPageThreeProfile" />
+    </activity>
+    </application>
+
+</manifest>

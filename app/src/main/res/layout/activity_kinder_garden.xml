@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/imageKinderGarden"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:singleLine="true"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/camera3" />
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/title_left" />
+    <TextView
+        android:id="@+id/tvNameKG"
+        style="@style/myCustomTextViewLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="175dp"
+        android:text="Сокровища Турана" />
+    <TextView
+        android:id="@+id/tvAddressKG"
+        style="@style/myCustomTextViewMediumWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/tvNameKG"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:text="ул. Аксайская д-32. 7." />
+    <Button
+        style="@style/myCustomButton"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/callButton"
+        android:id="@+id/callButton"
+        android:layout_below="@+id/imageKinderGarden"
+        android:focusable="false"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/callButton"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/callButton"
+            android:layout_centerHorizontal="true">
+
+    <TextView
+        android:id="@+id/tvInfo"
+        style="@style/myCustomTextViewRegularBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Квалифицированные педагоги, внимательный персонал далеко не все плюсы этого детского сада. Ежегодно садик выпускает 10 человек. Это настоящий семейный детский сад.
+В программе интегрированные занятия по казахскому и английскому языкам, ритмика и музыкальные занятия, кружки по лепке, рисованию песком, карате.
+Еще один плюс в копилку «Куншуак» — бережная адаптация ребенка-новичка к детскому саду. Благодаря специальной программе, ребенок чувствует себя комфортно в саду.
+Основной упор делают на развитие эмоционального интеллекта (способность распознавать, понимать и управлять эмоциями). Детей учат понимать эмоции и реагировать на них, решать конфликты мирным путем и уметь существовать в обществе. Эмоции здесь изучают точно так же, как цифры и алфавит. Преподаватели уверены, чтобы стать хозяевами своей жизни, нельзя позволять негативным эмоциям управлять нашими мыслями и чувствами. Квалифицированные преподаватели разговаривают с детьми об их переживаниях, учат понимать собеседника без критики и осуждения, объясняют в игровой форме как заменить драку разговором.
+До каждого ребенка доносят, что у человека есть возможность выбора реакции на эмоцию. И чем больше подобных способов реагировать он узнает, тем проще и увлекательнее будет его жизнь.
+Есть специальное питание для детей-аллергиков."/>
+
+    <TextView
+        android:id="@+id/tvPrice"
+        style="@style/myCustomTextViewRegularBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/tvInfo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:text="Цена: 95 000 тенге в месяц" />
+    <TextView
+        android:id="@+id/tvAge"
+        style="@style/myCustomTextViewRegularBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/tvPrice"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:text="Возраст детей: от 2 до 6 лет" />
+    <TextView
+        android:id="@+id/tvGroup"
+        style="@style/myCustomTextViewRegularBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/tvAge"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:text="Количество детей: 4 группы по 10 детей" />
+    <TextView
+        android:id="@+id/tvAddress"
+        style="@style/myCustomTextViewRegularBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/tvGroup"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:text="Адрес: ул. Ульяновская,32/17" />
+    <TextView
+        android:id="@+id/tvPhone"
+        style="@style/myCustomTextViewRegularBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/tvAddress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:text="Телефон: +7 (727) 223–80–89" />
+    <TextView
+        android:id="@+id/Site"
+        style="@style/myCustomTextViewRegularBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/tvPhone"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:text="Сайт: http://www.kunshuak.com/ " />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

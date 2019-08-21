@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBtn">#50B6BB</color>
+    <color name="colorPressedBtn">#50B6BB</color>
+
+    <color name="colorBackground">#F8F8F8</color>
+    <color name="colorBackgroundWhite">#F8F8F8</color>
+    <color name="colorText">#352e3d</color>
+    <color name="colorTextSmall">#ffffff</color>
+
+    <color name="colorEditText">#000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="grey">#212121</color>
+    <color name="green">#3AAACF</color>
+    <color name="darkgreen">#212121</color>
+
+
+
+</resources>

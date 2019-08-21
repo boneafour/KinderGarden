@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/colorBackground" >
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/title_left" />
+
+    <ImageView
+        android:id="@+id/addImageCreation"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/app_bar"
+        android:src="@drawable/ic_launcher_background" />
+    <TextView
+        android:id="@+id/tvTitleCreation"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/addImageCreation"
+        style="@style/CreationTextViewRegularBlack"
+        android:layout_above="@+id/tvResetPass"
+        android:text="@string/tvWriteTitle" />
+    <EditText
+        android:id="@+id/editTitle"
+        style="@style/myCustomEditText"
+        android:layout_below="@+id/tvTitleCreation"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/editTitleCreation"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:id="@+id/tvSelectAuthor"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editTitle"
+        style="@style/CreationTextViewRegularBlack"
+        android:layout_above="@+id/tvResetPass"
+        android:text="@string/tvSelectAuthor" />
+    <Spinner
+        android:id="@+id/spAuthor"
+        style="@style/myCustomEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvSelectAuthor" />
+
+    <Button
+        android:id="@+id/addCreation"
+        style="@style/myCustomButton"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/add"
+        android:focusable="false"/>
+
+
+</RelativeLayout>

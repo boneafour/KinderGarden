@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <EditText
+        android:id="@+id/editLogin"
+        style="@style/myCustomEditText"
+        android:layout_below="@+id/app_bar"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/editLogin"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/editPass"
+        style="@style/myCustomEditText"
+        android:layout_below="@+id/editLogin"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/editPass"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editPassRepeat"
+        style="@style/myCustomEditText"
+        android:layout_below="@+id/editPass"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/editPassRepeat"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnFinish"
+        style="@style/myCustomButton"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/finishButton"
+        android:focusable="false"/>
+
+
+
+
+</RelativeLayout>
+

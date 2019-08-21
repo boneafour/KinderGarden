@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="420dp"
+    android:background="@color/colorBackgroundWhite"
+    android:layout_marginBottom="55dip">
+
+    <ImageView
+        android:id="@+id/imageCreation"
+        android:layout_marginTop="5dp"
+        style="@style/myImageCreation"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imageAuthor"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/image_profile"
+        app:civ_border_width="2dp"
+        android:layout_below="@+id/imageCreation"
+        android:scaleType="centerCrop"
+        app:civ_border_color="#FF000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tvTitleCreation"
+        style="@style/CreationTextViewMediumBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imageAuthor"
+        android:layout_below="@+id/imageCreation"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:singleLine="true"
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/tvDate"
+        style="@style/myCustomTextViewRegularBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitleCreation"
+        android:layout_toRightOf="@+id/imageAuthor"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:singleLine="true"
+        android:text="New Text"
+        android:layout_marginBottom="5dp"
+        />
+
+</RelativeLayout>
